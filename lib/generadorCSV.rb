@@ -1,5 +1,6 @@
 require 'csv'
 require_relative './helpers'
+require_relative "csvLargeProcessing/version"
 headers = ['Date', 'ISBN', 'Amount']
 
 Date    = "2008-04-12"
